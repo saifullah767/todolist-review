@@ -1,0 +1,99 @@
+body {
+  font-family: "Open Sans", "Lucida Grande", tahoma, verdana, arial, sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.list ul {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 5%;
+  box-shadow: 0 0 8px rgb(0 0 0 / 15%);
+  margin: 0;
+}
+
+.list ul li {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list ul li:nth-child(1) {
+  border-top: none;
+}
+
+.check-input {
+  position: relative;
+  left: -1rem;
+}
+
+.label {
+  width: 90%;
+  color: black;
+}
+
+.para-label {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.clearallbutton {
+  background-color: #fff;
+  padding: 15px 63px 15px 63px;
+  width: 100%;
+  border: none;
+  display: block;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+.add-input {
+  border: none;
+  width: 88%;
+  padding: 20px 20px 20px 20px;
+  font-size: 18.7px;
+}
+
+.hide {
+  display: none;
+}
+
+.top {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 -3px 8px rgb(0 0 0 / 15%);
+}
+
+.strike {
+  text-decoration: line-through;
+  color: rgb(71, 80, 80);
+}
